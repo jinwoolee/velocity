@@ -1,0 +1,10 @@
+<html>
+    <head>
+    </head>
+    <body>
+        index.vm
+        #foreach($!vo in $!list)
+            
+        #end
+    </body>
+</html>

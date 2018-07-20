@@ -1,0 +1,11 @@
+$response.setContentType("text/plain; charset=utf-8")
+<html>
+    request.requestAttribute : $!request.requestAttribute <br>
+    session.sessionAttribute : $!session.sessionAttribute <br>
+    application.servletContextAttribute : $!application.servletContextAttribute <br>
+    servletContext.servletContextAttribute : $!servletContext.servletContextAttribute
+
+    #foreach($ranger in $lineRangers)
+        $ranger <br>
+    #end
+</html>
