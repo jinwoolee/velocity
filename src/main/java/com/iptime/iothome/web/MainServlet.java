@@ -35,6 +35,6 @@ public class MainServlet extends HttpServlet {
 		
 		request.setAttribute("lineRangers", lineRangers);
 		
-		request.getRequestDispatcher("/main.vm").forward(request, response);
+		request.getRequestDispatcher("/main.tiles").forward(request, response);
 	}
 }

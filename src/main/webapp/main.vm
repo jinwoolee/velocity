@@ -1,4 +1,4 @@
-$response.setContentType("text/plain; charset=utf-8")
+##$response.setContentType("text/plain; charset=utf-8")
 <html>
     request.requestAttribute : $!request.requestAttribute <br>
     session.sessionAttribute : $!session.sessionAttribute <br>

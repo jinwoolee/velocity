@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="layout" template="/layout/layout.jsp">
+    <put-attribute name="title" value="Tiles tutorial homepage" />
+    <put-attribute name="top" value="/layout/top.jsp" />
+    <put-attribute name="menu"  />
+  </definition>
+  
+   <definition name="main" extends="layout">
+        <put-attribute name="content" value="/main.jsp"/>
+        <put-attribute name="content2" value="/main.vm"/>
+   </definition>
+</tiles-definitions>
